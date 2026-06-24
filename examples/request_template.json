@@ -1,0 +1,16 @@
+{
+  "model": "criticleanGPT-Qwen3-8B-RL",
+  "messages": [
+    {
+      "role": "system",
+      "content": "... see prompts/formalrx_system_prompt.md ..."
+    },
+    {
+      "role": "user",
+      "content": "Decide whether the Lean 4 formal_statement faithfully formalizes the informal mathematical statement.\nReturn only one label: aligned or misaligned.\nHeader/context:\n<header>\nInformal statement:\n<informal_statement>\nCandidate Lean formal_statement:\n<formal_statement>"
+    }
+  ],
+  "temperature": 0,
+  "max_tokens": 1024,
+  "stream": false
+}

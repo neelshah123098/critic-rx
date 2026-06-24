@@ -1,0 +1,9 @@
+Decide whether the Lean 4 formal_statement faithfully formalizes the informal mathematical statement.
+Return only one label: aligned or misaligned.
+Header/context:
+{header}
+Informal statement:
+{informal_statement}
+Candidate Lean formal_statement:
+{formal_statement}
+
